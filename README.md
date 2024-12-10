@@ -42,21 +42,21 @@ Acity Pulse is a comprehensive web application designed to streamline event plan
 1. Clone both repositories:
 
    ```bash
-   git clone https://github.com/yourusername/campus-event-hub.git
-   git clone https://github.com/EMA-Wolf/Campus-Event-ManagementBackend.git
+   git clone https://github.com/F8NIRBJ057/Acity-Pulse-Frontend.git
+   git clone https://github.com/F8NIRBJ057/Acity-Pulse-Backend.git
    ```
 
 2. Frontend Setup:
 
    ```bash
-   cd campus-event-hub
+   cd Acity-Pulse-Frontend
    npm install
    ```
 
 3. Backend Setup:
 
    ```bash
-   cd Campus-Event-ManagementBackend
+   cd Acity-Pulse-Backend
    npm install
    ```
 
@@ -145,6 +145,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Project Link: [https://github.com/yourusername/campus-event-hub](https://github.com/yourusername/campus-event-hub)
+Project Link: [Frontend](https://github.com/F8NIRBJ057/Acity-Pulse-Frontend)
 
-For questions and feedback: [emaxwellaidam@gmail.com]
+For questions and feedback: [maureen.amago@acity.edu.gh]
+
