@@ -50,7 +50,7 @@ const LoginForm = () => {
                }
             }catch(error){
                 setIsLoading(false)
-                toast.error("Error Logging in")
+                toast.error(`Error Logging in: ${error.response.data.msg}`)
                 console.error("Error Login",error)
             }
         // console.log(userDetails)
