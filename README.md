@@ -4,6 +4,16 @@
 
 Acity Pulse is a comprehensive web application designed to streamline event planning and coordination on campus. It provides a centralized platform for students and administrators to manage events, handle RSVPs, and stay updated on campus activities through an intuitive calendar interface.
 
+## Links
+
+### Repositories
+- Backend: [Acity-Pulse-Backend](https://github.com/F8NIRBJ057/Acity-Pulse-Backend)
+
+### Deployment
+- Frontend: [Acity Pulse Web App](https://acity-pulse.vercel.app/)
+- Backend API: [Acity Pulse API](https://acity-pulse-backend.onrender.com)
+
+
 ## Key Features
 
 - **User Authentication**: Secure login and registration system with role-based access control
@@ -83,6 +93,11 @@ Acity Pulse is a comprehensive web application designed to streamline event plan
    npm run dev
    ```
 
+## Admin Details
+
+- **Email**: Arnold@example.com
+- **Password**: test
+
 ## Project Structure
 
 ### Frontend Architecture
@@ -148,4 +163,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project Link: [Frontend](https://github.com/F8NIRBJ057/Acity-Pulse-Frontend)
 
 For questions and feedback: [maureen.amago@acity.edu.gh]
-
