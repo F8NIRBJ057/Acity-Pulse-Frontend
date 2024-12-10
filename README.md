@@ -11,7 +11,7 @@ Acity Pulse is a comprehensive web application designed to streamline event plan
 
 ### Deployment
 - Frontend: [Acity Pulse Web App](https://acity-pulse.vercel.app/)
-- Backend API: [Acity Pulse API](https://acity-pulse-backend.onrender.com)
+- Backend API: [Acity Pulse API](https://acity-pulse.onrender.com)
 
 
 ## Key Features
