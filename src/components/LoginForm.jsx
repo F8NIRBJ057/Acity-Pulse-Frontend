@@ -64,11 +64,18 @@ const LoginForm = () => {
             <form onSubmit={handleLogin} className='flex flex-col gap-5'>
                 <div className='flex flex-col'>
                     <label htmlFor="email">Email:</label>
-                    <input onChange={e=> setUserDetails({...userDetails,email:e.target.value})} className='p-2 bg-gray-200' type="email"  />
+                    <input id="email"
+              name="Arnold@example.com"
+              value={userDetails.email} 
+               onChange={e=> setUserDetails({...userDetails,email:e.target.value})} className='p-2 bg-gray-200' type="email"  />
                 </div>
                 <div className='flex flex-col'>
                     <label htmlFor="password">Password:</label>
-                    <input onChange={e=> setUserDetails({...userDetails,password:e.target.value})} className='p-2 bg-gray-200' type="password" />
+                    <input 
+                    id="password"
+                    name="test"
+                    value={userDetails.password}
+                     onChange={e=> setUserDetails({...userDetails,password:e.target.value})} className='p-2 bg-gray-200' type="password" />
                 </div>
 
                 <button disabled={isLoading} type="submit" className='bg-black text-white px-4 py-3'>{isLoading?"Logging in...":"Login"}</button>
