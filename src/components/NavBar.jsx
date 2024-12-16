@@ -5,11 +5,14 @@ import { useNavigate } from 'react-router-dom'
 const NavBar = () => {
   const navigate = useNavigate();
 
+  const user = localStorage.getItem("User");
+  const parsedUser = user ? JSON.parse(user) : null;
+
   return (
     <header className="bg-gray-800 text-white px-6 py-4 flex justify-between items-center">
       <h1 className="text-2xl font-bold">City Pulse</h1>
       <nav>
-        {JSON.parse(localStorage.getItem("User")) ? (
+        {parsedUser ? (
           <ul className="flex space-x-6">
             <li>
               <button onClick={() => navigate('/home')} className="hover:text-yellow-300">Home</button>
@@ -23,7 +26,7 @@ const NavBar = () => {
             <li>
               <button onClick={() => navigate('/calendar')} className="hover:text-yellow-300">Calendar</button>
             </li>
-            {JSON.parse(localStorage.getItem("User"))?.role === "admin" && (
+            {parsedUser?.role === "admin" && (
               <li>
                 <button onClick={() => navigate('/admin')} className="hover:text-yellow-300">Create Event</button>
               </li>
