@@ -9,7 +9,7 @@ const NavBar = () => {
     <header className="bg-gray-800 text-white px-6 py-4 flex justify-between items-center">
       <h1 className="text-2xl font-bold">City Pulse</h1>
       <nav>
-        {localStorage.getItem("User") ? (
+        {JSON.parse(localStorage.getItem("User")) ? (
           <ul className="flex space-x-6">
             <li>
               <button onClick={() => navigate('/home')} className="hover:text-yellow-300">Home</button>
