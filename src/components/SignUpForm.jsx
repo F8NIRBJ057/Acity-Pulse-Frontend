@@ -37,7 +37,7 @@ const SignUpForm = () => {
 
     try{
         const response = await api.post("/api/auth/register",finalDetails)
-        if(response.data.msg === "User register succesfully"){
+        if(response.data.msg === "User registered successfully"){
             setIsLoading(false)
             toast.success(response.data.msg)
             localStorage.setItem("User", JSON.stringify(response.data.user))
