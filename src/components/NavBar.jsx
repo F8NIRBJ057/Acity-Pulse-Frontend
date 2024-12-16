@@ -23,7 +23,7 @@ const NavBar = () => {
             <li>
               <button onClick={() => navigate('/calendar')} className="hover:text-yellow-300">Calendar</button>
             </li>
-            {JSON.parse(localStorage.getItem("User")).role === "admin" && (
+            {JSON.parse(localStorage.getItem("User"))?.role === "admin" && (
               <li>
                 <button onClick={() => navigate('/admin')} className="hover:text-yellow-300">Create Event</button>
               </li>
